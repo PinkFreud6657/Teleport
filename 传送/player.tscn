@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://ck67poct7jpn7"]
+
+[ext_resource type="Script" uid="uid://cnhwkuc8wj8do" path="res://script/player.gd" id="1_onrkg"]
+[ext_resource type="Texture2D" uid="uid://gxfmhaplfscf" path="res://image/绘制像素卡比.png" id="2_onrkg"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i3pqv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_onrkg")
+}],
+"loop": true,
+"name": &"player",
+"speed": 12.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_onrkg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1.1368684e-13, -47)
+scale = Vector2(0.056621898, 0.056621894)
+sprite_frames = SubResource("SpriteFrames_i3pqv")
+animation = &"player"
+autoplay = "player"
+frame_progress = 0.48786053

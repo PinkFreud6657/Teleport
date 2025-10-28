@@ -1,0 +1,7 @@
+[gd_resource type="TileSet" load_steps=2 format=3 uid="uid://h3lh33a5x6wb"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ci82a"]
+
+[resource]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetScenesCollectionSource_ci82a")
