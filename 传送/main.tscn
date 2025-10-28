@@ -950,3 +950,5 @@ tile_set = SubResource("TileSet_7mycd")
 use_kinematic_bodies = true
 collision_visibility_mode = 1
 navigation_visibility_mode = 1
+
+[node name="Node2D" type="Node2D" parent="."]
