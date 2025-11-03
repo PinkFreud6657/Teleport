@@ -1,0 +1,4 @@
+res://script/tilemap_collision_builder.gd
+res://main.tscn
+res://script/player.gd
+res://script/coords_ui.gd

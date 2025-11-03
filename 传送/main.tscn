@@ -1,8 +1,10 @@
-[gd_scene load_steps=8 format=4 uid="uid://b58avr7lm6brq"]
+[gd_scene load_steps=11 format=4 uid="uid://b58avr7lm6brq"]
 
 [ext_resource type="Texture2D" uid="uid://cik0blaybq3ut" path="res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/Background.png" id="3_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://ck67poct7jpn7" path="res://player.tscn" id="3_h2yge"]
 [ext_resource type="Texture2D" uid="uid://bfnwyg5cwj2do" path="res://PixelFantasy_Caves_1.0/platform.tres" id="3_lquwl"]
+[ext_resource type="Script" uid="uid://30gflcaohrwm" path="res://script/tilemap_collision_builder.gd" id="4_q7h1t"]
+[ext_resource type="Script" uid="uid://b7dpad1cha6ad" path="res://script/coords_ui.gd" id="5_r0ui3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
 size = Vector2(52.162918, 55.640427)
@@ -914,6 +916,9 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_lquwl")
 sources/1 = SubResource("TileSetAtlasSource_7mycd")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
+size = Vector2(2000, 40)
+
 [node name="main" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -927,21 +932,19 @@ zoom = Vector2(1.05, 1.05)
 
 [node name="Player" parent="." instance=ExtResource("3_h2yge")]
 top_level = true
-position = Vector2(312, 223.00002)
+position = Vector2(316, 248)
 scale = Vector2(0.57512116, 0.57512116)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(-1.7387695, -1.7387695)
+position = Vector2(-1.7387695, -45.20787)
 shape = SubResource("RectangleShape2D_h2yge")
 
 [node name="Background" type="Sprite2D" parent="."]
 show_behind_parent = true
 position = Vector2(-255, -77)
-texture = ExtResource("3_1bvp3")
 
 [node name="Background" type="Sprite2D" parent="Background"]
-position = Vector2(928, 0)
-texture = ExtResource("3_1bvp3")
+position = Vector2(1048, 356)
 
 [node name="Layer0" type="TileMapLayer" parent="."]
 use_parent_material = true
@@ -950,5 +953,22 @@ tile_set = SubResource("TileSet_7mycd")
 use_kinematic_bodies = true
 collision_visibility_mode = 1
 navigation_visibility_mode = 1
+script = ExtResource("4_q7h1t")
 
 [node name="Node2D" type="Node2D" parent="."]
+
+[node name="CoordsUI" type="CanvasLayer" parent="."]
+script = ExtResource("5_r0ui3")
+
+[node name="Label" type="Label" parent="CoordsUI"]
+offset_left = 12.0
+offset_top = 10.0
+offset_right = 86.0
+offset_bottom = 33.0
+text = "--- ---"
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(0, 260)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+shape = SubResource("RectangleShape2D_ground")

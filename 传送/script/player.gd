@@ -13,8 +13,8 @@ func _physics_process(delta):
 	else:
 		velocity.y = max(velocity.y, 0) # 防止下坠速度残留
 
-	# 读取输入
-	var input_dir = Input.get_axis("ui_left", "ui_right")
+	# 读取输入（使用项目自定义映射）
+	var input_dir = Input.get_axis("move_left", "move_right")
 
 	# 目标水平速度
 	var target_speed = input_dir * speed
@@ -25,8 +25,8 @@ func _physics_process(delta):
 	else:
 		velocity.x = lerp(velocity.x, 0.0, friction * delta)
 
-	# 跳跃逻辑
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	# 跳跃逻辑（支持 move_up 与 ui_accept）
+	if (Input.is_action_just_pressed("move_up") or Input.is_action_just_pressed("ui_accept")) and is_on_floor():
 		velocity.y = jump_force
 
 	# 移动与碰撞
