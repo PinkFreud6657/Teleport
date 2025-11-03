@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://bfnwyg5cwj2do" path="res://PixelFantasy_Caves_1.0/platform.tres" id="3_lquwl"]
 [ext_resource type="Script" uid="uid://30gflcaohrwm" path="res://script/tilemap_collision_builder.gd" id="4_q7h1t"]
 [ext_resource type="Script" uid="uid://b7dpad1cha6ad" path="res://script/coords_ui.gd" id="5_r0ui3"]
-[ext_resource type="Script" path="res://script/arrow_to_mouse.gd" id="6_v8arr"]
+[ext_resource type="Script" uid="uid://dbp0ejt1n6nfi" path="res://script/arrow_to_mouse.gd" id="6_v8arr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]
 texture = ExtResource("3_1bvp3")
@@ -936,10 +936,10 @@ navigation_visibility_mode = 1
 script = ExtResource("4_q7h1t")
 
 [node name="Node2D" type="Node2D" parent="."]
+
 [node name="Arrow" type="Node2D" parent="."]
 z_index = 100
 script = ExtResource("6_v8arr")
-
 
 [node name="CoordsUI" type="CanvasLayer" parent="."]
 script = ExtResource("5_r0ui3")
