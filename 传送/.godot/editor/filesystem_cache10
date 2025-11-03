@@ -1,62 +1,62 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1761669619
-character_body_2d.gd::GDScript::3342142396483995582::1761669442::0::1::::<>CharacterBody2D<><>0<>0<><>::
-main.tres::TileSet::549806384007024129::1761669442::0::1::::<><><>0<>0<><>::
-main.tscn::PackedScene::4560248903237787630::1761669442::0::1::::<><><>0<>0<><>::uid://cik0blaybq3ut::::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/Background.png<>uid://ck67poct7jpn7::::res://player.tscn<>uid://bfnwyg5cwj2do::::res://PixelFantasy_Caves_1.0/platform.tres
-new_script.gd::GDScript::640619278267222376::1761669442::0::1::::<>Node2D<><>0<>0<><>::
-node_2d.tscn::PackedScene::7416530482925206598::1761669442::0::1::::<><><>0<>0<><>::
-play.tscn::PackedScene::6825177105412550017::1761669442::0::1::::<><><>0<>0<><>::uid://bnu7ukdt3bhus::::res://character_body_2d.gd
-player.tscn::PackedScene::5540695984142397502::1761669442::0::1::::<><><>0<>0<><>::uid://cnhwkuc8wj8do::::res://script/player.gd<>uid://gxfmhaplfscf::::res://image/绘制像素卡比.png
-::res://Free Pixel Art Forest/::1761669442
-::res://Free Pixel Art Forest/Free Pixel Art Forest/::1761669442
-changelog.txt::TextFile::-1::1761669442::0::1::::<><><>0<>0<><>::
-Contact.txt::TextFile::-1::1761669442::0::1::::<><><>0<>0<><>::
-license.txt::TextFile::-1::1761669442::0::1::::<><><>0<>0<><>::
-readme.txt::TextFile::-1::1761669442::0::1::::<><><>0<>0<><>::
-::res://Free Pixel Art Forest/Free Pixel Art Forest/PNG/::1761669442
-::res://Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/::1761669442
-Layer_0000_9.png::CompressedTexture2D::5718878154726198372::1761669442::1761669620::1::::<><><>0<>0<>635a9519e64adbaedf008553214695f5<>res://.godot/imported/Layer_0000_9.png-a901da38e6e6f75832aab8822118a083.ctex::
-Layer_0001_8.png::CompressedTexture2D::2673851689655478666::1761669442::1761669620::1::::<><><>0<>0<>dc650dd0e439cabaafad39287052c861<>res://.godot/imported/Layer_0001_8.png-aa16ff2eb5c8e1790c4360fca9a8a4a1.ctex::
-Layer_0002_7.png::CompressedTexture2D::5210396583196963368::1761669442::1761669620::1::::<><><>0<>0<>25878ce5114542892a8cdee55d8581e9<>res://.godot/imported/Layer_0002_7.png-aa0aab1d457b3d566c02b52b79bcdc0e.ctex::
-Layer_0003_6.png::CompressedTexture2D::2639142876886315542::1761669442::1761669620::1::::<><><>0<>0<>9ca56ef05cdd916332ebf05e0ddd5865<>res://.godot/imported/Layer_0003_6.png-bd97c281e7535ddbd6539b9d8e781cb8.ctex::
-Layer_0004_Lights.png::CompressedTexture2D::671068851971897663::1761669442::1761669620::1::::<><><>0<>0<>bab353784fddde4c0db90165913fc7e2<>res://.godot/imported/Layer_0004_Lights.png-487e80560d390f8e6c42a4956c09c78a.ctex::
-Layer_0005_5.png::CompressedTexture2D::832627834917433990::1761669442::1761669620::1::::<><><>0<>0<>053d328364c3a157ed81ee3a09254686<>res://.godot/imported/Layer_0005_5.png-02f3d7a2eb678c4eff8c53ab5bf78cfd.ctex::
-Layer_0006_4.png::CompressedTexture2D::411249692659029246::1761669442::1761669620::1::::<><><>0<>0<>bb6b5bc934f1adebd91d6958e83b05c3<>res://.godot/imported/Layer_0006_4.png-03060ecce21c892cee627c0a046c8957.ctex::
-Layer_0007_Lights.png::CompressedTexture2D::9048233776138059981::1761669442::1761669620::1::::<><><>0<>0<>2d50e7d013d94a1bffdbf31c4d13b231<>res://.godot/imported/Layer_0007_Lights.png-2935a880d6b139e23a9a3f930e9a12b3.ctex::
-Layer_0008_3.png::CompressedTexture2D::584323671045493421::1761669442::1761669620::1::::<><><>0<>0<>e150ac12fda0567224fb20818b28e9f2<>res://.godot/imported/Layer_0008_3.png-7bdc8ceb53f6e65a03750f5e168354f8.ctex::
-Layer_0009_2.png::CompressedTexture2D::5224533247882601434::1761669442::1761669620::1::::<><><>0<>0<>2568cdbb3c99748796742a93bf765d48<>res://.godot/imported/Layer_0009_2.png-2c562160874111b6c58e640f976d586c.ctex::
-Layer_0010_1.png::CompressedTexture2D::7407786464896413149::1761669442::1761669620::1::::<><><>0<>0<>dd55a33ea1ee5452f361da11e5ac52a8<>res://.godot/imported/Layer_0010_1.png-d92522f87fe4e8e8734a65a6c97d0657.ctex::
-Layer_0011_0.png::CompressedTexture2D::253224167023628813::1761669442::1761669620::1::::<><><>0<>0<>c163574274509203b19e4043ee5a930f<>res://.godot/imported/Layer_0011_0.png-f586a818edd041f48e1a306c1bbd7d35.ctex::
-::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/::1761669442
-Background.png::CompressedTexture2D::5356516183493425467::1761669442::1761669620::1::::<><><>0<>0<>2b0326a4b6358f7084212ba6f22f265b<>res://.godot/imported/Background.png-d99d1daf23e0d7fab7e10397fa81903e.ctex::
-::res://Free Pixel Art Forest/Free Pixel Art Forest/PSD/::1761669442
-::res://Free Pixel Art Forest/Free Pixel Art Forest/You may also like/::1761669442
-Pixel Art Forest.png::CompressedTexture2D::8896637809455796159::1761669442::1761669620::1::::<><><>0<>0<>aa3ac4f8293e0ea5fa132d844f9dde20<>res://.godot/imported/Pixel Art Forest.png-65dc17771254602a614eb9e9e831faed.ctex::
-Pixel Art Plataformer Painted Style.png::CompressedTexture2D::6380350497887403266::1761669442::1761669620::1::::<><><>0<>0<>e1032ccb7c09ada273384d0d3e192c1e<>res://.godot/imported/Pixel Art Plataformer Painted Style.png-46819ae088d902a6723d2a668f31e90b.ctex::
-Pixel Art Runner.png::CompressedTexture2D::7477777435761066624::1761669442::1761669620::1::::<><><>0<>0<>8de57094f6e143f76453a52adb2ff34b<>res://.godot/imported/Pixel Art Runner.png-88cc413fde80a2d87f154aab0d28bd85.ctex::
-Pixel Art Snowy Forest.png::CompressedTexture2D::2559405065031086833::1761669442::1761669620::1::::<><><>0<>0<>8ba2d0a63fcefd927771818f0f72bbf8<>res://.godot/imported/Pixel Art Snowy Forest.png-cac473f0d0c7672620a3e146f20d74b5.ctex::
-::res://image/::1761669442
-anime.jpg::CompressedTexture2D::8019063717446090096::1761669442::1761669620::1::::<><><>0<>0<>b4bb828697bc45cbe1ca41bc4be579e2<>res://.godot/imported/anime.jpg-123515fbcb2cc06fe9c65646c74a4c91.ctex::
-background_dust2.jpg::CompressedTexture2D::1267711288631748092::1761669442::1761669620::1::::<><><>0<>0<>1013c987ebc2ed785368ad144386b860<>res://.godot/imported/background_dust2.jpg-12a4a62336c83719e1caabb5a0e8304a.ctex::
-character.png::CompressedTexture2D::7006215480334096522::1761669442::1761669620::1::::<><><>0<>0<>ac059e9b63a0b0fb30dcec76b1b6bc25<>res://.godot/imported/character.png-e73bc05946a336deb4940c46aea02f9b.ctex::
-绘制像素卡比.png::CompressedTexture2D::468939133022159689::1761669442::1761669620::1::::<><><>0<>0<>2fad9714ae9c5760e22bada26b8fe1e5<>res://.godot/imported/绘制像素卡比.png-28a3c9ae3997e22e268ed0c1989a85e8.ctex::
-::res://PixelFantasy_Caves_1.0/::1761669442
-background1.png::CompressedTexture2D::7278536924264123818::1761669442::1761669620::1::::<><><>0<>0<>7340975e2c0a006dcadfd1fd5944ae34<>res://.godot/imported/background1.png-a50c6d068763aacb42726409674ea38f.ctex::
-background2.png::CompressedTexture2D::1655887235397585104::1761669442::1761669620::1::::<><><>0<>0<>6f86bcda6b58664be9a2057ae04c0b15<>res://.godot/imported/background2.png-1000de2aeede285c998452863c0aad6d.ctex::
-background3.png::CompressedTexture2D::5655135795746856090::1761669442::1761669620::1::::<><><>0<>0<>fcb605845ce4cd9c2bd7689b9982c4b0<>res://.godot/imported/background3.png-394c6dcf55b75dd8d4565f5a939b6b86.ctex::
-background4a.png::CompressedTexture2D::6319437658004868345::1761669442::1761669620::1::::<><><>0<>0<>cb6c3256745589628307ea0feaf5b86b<>res://.godot/imported/background4a.png-035b5887a858550427d66bffa5566189.ctex::
-background4b.png::CompressedTexture2D::6621724764794876358::1761669442::1761669620::1::::<><><>0<>0<>1accfe87a8d470af809389d9160413a2<>res://.godot/imported/background4b.png-4b31272075855e396a55d09d860ef824.ctex::
-mainlev_build.png::CompressedTexture2D::2561322545171186500::1761669442::1761669620::1::::<><><>0<>0<>d758b26892831e316f45cf8a1f040e43<>res://.godot/imported/mainlev_build.png-8ba7256e6d2de2d68a20b5793af5ec18.ctex::
-platform.tres::CompressedTexture2D::2765580807185508424::1761669442::0::1::::<><><>0<>0<><>::
-props1.png::CompressedTexture2D::1061933893729824669::1761669442::1761669620::1::::<><><>0<>0<>b92e62bc399a8d05f0d28197ba3d8e7e<>res://.godot/imported/props1.png-2d85e42e62f5f7943f560e1c9282ed79.ctex::
-props2.png::CompressedTexture2D::4962780903419447148::1761669442::1761669620::1::::<><><>0<>0<>c3c250605d578be6e527d583d10b3aa9<>res://.godot/imported/props2.png-53c2eaecf297dc1954319fd988fbaed9.ctex::
-::res://PixelFantasy_Caves_1.0/PSD/::1761669442
-::res://script/::1761669442
-player.gd::GDScript::5701101665824724800::1761669442::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://stringstar fields/::1761669442
-!readme!.txt::TextFile::-1::1761669442::0::1::::<><><>0<>0<><>::
-background_0.png::CompressedTexture2D::6888686314778311539::1761669442::1761669620::1::::<><><>0<>0<>232845c75443e0eb2d23be20b9b65f80<>res://.godot/imported/background_0.png-e4626cbda9fab221d6d7568adabc343d.ctex::
-background_1.png::CompressedTexture2D::2567023413350364159::1761669442::1761669620::1::::<><><>0<>0<>e70a88c0c03c92ae5681b9cf47680ed5<>res://.godot/imported/background_1.png-622a64207870902eda672f091d0ca73c.ctex::
-background_2.png::CompressedTexture2D::2088563879226697099::1761669442::1761669620::1::::<><><>0<>0<>bbe89fdd91d2ef5c9fac5ced2a079710<>res://.godot/imported/background_2.png-2428db69d724f3e01b81ea34c4b1ea71.ctex::
-example.png::CompressedTexture2D::6559718912817437872::1761669442::1761669620::1::::<><><>0<>0<>6feba75a0cdefb28385bf0a2b85a8db4<>res://.godot/imported/example.png-01eee346d64d0229f899c7e0a67708ea.ctex::
-tileset.png::CompressedTexture2D::3584274357696270905::1761669442::1761669620::1::::<><><>0<>0<>43976e41829851e1bb14aaa9d7065bae<>res://.godot/imported/tileset.png-b234aeccc43c2b8fc8aa321f668a5b00.ctex::
+::res://::1762171182
+character_body_2d.gd::GDScript::3342142396483995582::1762171118::0::1::::<>CharacterBody2D<><>0<>0<><>::
+main.tres::TileSet::549806384007024129::1762171118::0::1::::<><><>0<>0<><>::
+main.tscn::PackedScene::4560248903237787630::1762171118::0::1::::<><><>0<>0<><>::uid://cik0blaybq3ut::::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/Background.png<>uid://ck67poct7jpn7::::res://player.tscn<>uid://bfnwyg5cwj2do::::res://PixelFantasy_Caves_1.0/platform.tres
+new_script.gd::GDScript::640619278267222376::1762171118::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::7416530482925206598::1762171118::0::1::::<><><>0<>0<><>::
+play.tscn::PackedScene::6825177105412550017::1762171118::0::1::::<><><>0<>0<><>::uid://bnu7ukdt3bhus::::res://character_body_2d.gd
+player.tscn::PackedScene::5540695984142397502::1762171118::0::1::::<><><>0<>0<><>::uid://cnhwkuc8wj8do::::res://script/player.gd<>uid://gxfmhaplfscf::::res://image/绘制像素卡比.png
+::res://Free Pixel Art Forest/::1762171154
+::res://Free Pixel Art Forest/Free Pixel Art Forest/::1762171154
+changelog.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
+Contact.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
+license.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
+readme.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
+::res://Free Pixel Art Forest/Free Pixel Art Forest/PNG/::1762171154
+::res://Free Pixel Art Forest/Free Pixel Art Forest/PNG/Background layers/::1762171154
+Layer_0000_9.png::CompressedTexture2D::5718878154726198372::1762171118::1762171118::1::::<><><>0<>0<>635a9519e64adbaedf008553214695f5<>res://.godot/imported/Layer_0000_9.png-a901da38e6e6f75832aab8822118a083.ctex::
+Layer_0001_8.png::CompressedTexture2D::2673851689655478666::1762171118::1762171118::1::::<><><>0<>0<>dc650dd0e439cabaafad39287052c861<>res://.godot/imported/Layer_0001_8.png-aa16ff2eb5c8e1790c4360fca9a8a4a1.ctex::
+Layer_0002_7.png::CompressedTexture2D::5210396583196963368::1762171118::1762171118::1::::<><><>0<>0<>25878ce5114542892a8cdee55d8581e9<>res://.godot/imported/Layer_0002_7.png-aa0aab1d457b3d566c02b52b79bcdc0e.ctex::
+Layer_0003_6.png::CompressedTexture2D::2639142876886315542::1762171118::1762171118::1::::<><><>0<>0<>9ca56ef05cdd916332ebf05e0ddd5865<>res://.godot/imported/Layer_0003_6.png-bd97c281e7535ddbd6539b9d8e781cb8.ctex::
+Layer_0004_Lights.png::CompressedTexture2D::671068851971897663::1762171118::1762171118::1::::<><><>0<>0<>bab353784fddde4c0db90165913fc7e2<>res://.godot/imported/Layer_0004_Lights.png-487e80560d390f8e6c42a4956c09c78a.ctex::
+Layer_0005_5.png::CompressedTexture2D::832627834917433990::1762171118::1762171118::1::::<><><>0<>0<>053d328364c3a157ed81ee3a09254686<>res://.godot/imported/Layer_0005_5.png-02f3d7a2eb678c4eff8c53ab5bf78cfd.ctex::
+Layer_0006_4.png::CompressedTexture2D::411249692659029246::1762171118::1762171118::1::::<><><>0<>0<>bb6b5bc934f1adebd91d6958e83b05c3<>res://.godot/imported/Layer_0006_4.png-03060ecce21c892cee627c0a046c8957.ctex::
+Layer_0007_Lights.png::CompressedTexture2D::9048233776138059981::1762171118::1762171118::1::::<><><>0<>0<>2d50e7d013d94a1bffdbf31c4d13b231<>res://.godot/imported/Layer_0007_Lights.png-2935a880d6b139e23a9a3f930e9a12b3.ctex::
+Layer_0008_3.png::CompressedTexture2D::584323671045493421::1762171118::1762171118::1::::<><><>0<>0<>e150ac12fda0567224fb20818b28e9f2<>res://.godot/imported/Layer_0008_3.png-7bdc8ceb53f6e65a03750f5e168354f8.ctex::
+Layer_0009_2.png::CompressedTexture2D::5224533247882601434::1762171118::1762171118::1::::<><><>0<>0<>2568cdbb3c99748796742a93bf765d48<>res://.godot/imported/Layer_0009_2.png-2c562160874111b6c58e640f976d586c.ctex::
+Layer_0010_1.png::CompressedTexture2D::7407786464896413149::1762171118::1762171118::1::::<><><>0<>0<>dd55a33ea1ee5452f361da11e5ac52a8<>res://.godot/imported/Layer_0010_1.png-d92522f87fe4e8e8734a65a6c97d0657.ctex::
+Layer_0011_0.png::CompressedTexture2D::253224167023628813::1762171118::1762171118::1::::<><><>0<>0<>c163574274509203b19e4043ee5a930f<>res://.godot/imported/Layer_0011_0.png-f586a818edd041f48e1a306c1bbd7d35.ctex::
+::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/::1762171140
+Background.png::CompressedTexture2D::5356516183493425467::1762171118::1762171118::1::::<><><>0<>0<>2b0326a4b6358f7084212ba6f22f265b<>res://.godot/imported/Background.png-d99d1daf23e0d7fab7e10397fa81903e.ctex::
+::res://Free Pixel Art Forest/Free Pixel Art Forest/PSD/::1762171140
+::res://Free Pixel Art Forest/Free Pixel Art Forest/You may also like/::1762171140
+Pixel Art Forest.png::CompressedTexture2D::8896637809455796159::1762171118::1762171118::1::::<><><>0<>0<>aa3ac4f8293e0ea5fa132d844f9dde20<>res://.godot/imported/Pixel Art Forest.png-65dc17771254602a614eb9e9e831faed.ctex::
+Pixel Art Plataformer Painted Style.png::CompressedTexture2D::6380350497887403266::1762171118::1762171118::1::::<><><>0<>0<>e1032ccb7c09ada273384d0d3e192c1e<>res://.godot/imported/Pixel Art Plataformer Painted Style.png-46819ae088d902a6723d2a668f31e90b.ctex::
+Pixel Art Runner.png::CompressedTexture2D::7477777435761066624::1762171118::1762171118::1::::<><><>0<>0<>8de57094f6e143f76453a52adb2ff34b<>res://.godot/imported/Pixel Art Runner.png-88cc413fde80a2d87f154aab0d28bd85.ctex::
+Pixel Art Snowy Forest.png::CompressedTexture2D::2559405065031086833::1762171118::1762171118::1::::<><><>0<>0<>8ba2d0a63fcefd927771818f0f72bbf8<>res://.godot/imported/Pixel Art Snowy Forest.png-cac473f0d0c7672620a3e146f20d74b5.ctex::
+::res://image/::1762171140
+anime.jpg::CompressedTexture2D::8019063717446090096::1762171118::1762171118::1::::<><><>0<>0<>b4bb828697bc45cbe1ca41bc4be579e2<>res://.godot/imported/anime.jpg-123515fbcb2cc06fe9c65646c74a4c91.ctex::
+background_dust2.jpg::CompressedTexture2D::1267711288631748092::1762171118::1762171118::1::::<><><>0<>0<>1013c987ebc2ed785368ad144386b860<>res://.godot/imported/background_dust2.jpg-12a4a62336c83719e1caabb5a0e8304a.ctex::
+character.png::CompressedTexture2D::7006215480334096522::1762171118::1762171118::1::::<><><>0<>0<>ac059e9b63a0b0fb30dcec76b1b6bc25<>res://.godot/imported/character.png-e73bc05946a336deb4940c46aea02f9b.ctex::
+绘制像素卡比.png::CompressedTexture2D::468939133022159689::1762171118::1762171118::1::::<><><>0<>0<>2fad9714ae9c5760e22bada26b8fe1e5<>res://.godot/imported/绘制像素卡比.png-28a3c9ae3997e22e268ed0c1989a85e8.ctex::
+::res://PixelFantasy_Caves_1.0/::1762171140
+background1.png::CompressedTexture2D::7278536924264123818::1762171118::1762171118::1::::<><><>0<>0<>7340975e2c0a006dcadfd1fd5944ae34<>res://.godot/imported/background1.png-a50c6d068763aacb42726409674ea38f.ctex::
+background2.png::CompressedTexture2D::1655887235397585104::1762171118::1762171118::1::::<><><>0<>0<>6f86bcda6b58664be9a2057ae04c0b15<>res://.godot/imported/background2.png-1000de2aeede285c998452863c0aad6d.ctex::
+background3.png::CompressedTexture2D::5655135795746856090::1762171118::1762171118::1::::<><><>0<>0<>fcb605845ce4cd9c2bd7689b9982c4b0<>res://.godot/imported/background3.png-394c6dcf55b75dd8d4565f5a939b6b86.ctex::
+background4a.png::CompressedTexture2D::6319437658004868345::1762171118::1762171118::1::::<><><>0<>0<>cb6c3256745589628307ea0feaf5b86b<>res://.godot/imported/background4a.png-035b5887a858550427d66bffa5566189.ctex::
+background4b.png::CompressedTexture2D::6621724764794876358::1762171118::1762171118::1::::<><><>0<>0<>1accfe87a8d470af809389d9160413a2<>res://.godot/imported/background4b.png-4b31272075855e396a55d09d860ef824.ctex::
+mainlev_build.png::CompressedTexture2D::2561322545171186500::1762171118::1762171118::1::::<><><>0<>0<>d758b26892831e316f45cf8a1f040e43<>res://.godot/imported/mainlev_build.png-8ba7256e6d2de2d68a20b5793af5ec18.ctex::
+platform.tres::CompressedTexture2D::2765580807185508424::1762171118::0::1::::<><><>0<>0<><>::
+props1.png::CompressedTexture2D::1061933893729824669::1762171118::1762171118::1::::<><><>0<>0<>b92e62bc399a8d05f0d28197ba3d8e7e<>res://.godot/imported/props1.png-2d85e42e62f5f7943f560e1c9282ed79.ctex::
+props2.png::CompressedTexture2D::4962780903419447148::1762171118::1762171118::1::::<><><>0<>0<>c3c250605d578be6e527d583d10b3aa9<>res://.godot/imported/props2.png-53c2eaecf297dc1954319fd988fbaed9.ctex::
+::res://PixelFantasy_Caves_1.0/PSD/::1762171140
+::res://script/::1762171140
+player.gd::GDScript::5701101665824724800::1762171118::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://stringstar fields/::1762171140
+!readme!.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
+background_0.png::CompressedTexture2D::6888686314778311539::1762171118::1762171118::1::::<><><>0<>0<>232845c75443e0eb2d23be20b9b65f80<>res://.godot/imported/background_0.png-e4626cbda9fab221d6d7568adabc343d.ctex::
+background_1.png::CompressedTexture2D::2567023413350364159::1762171118::1762171118::1::::<><><>0<>0<>e70a88c0c03c92ae5681b9cf47680ed5<>res://.godot/imported/background_1.png-622a64207870902eda672f091d0ca73c.ctex::
+background_2.png::CompressedTexture2D::2088563879226697099::1762171118::1762171118::1::::<><><>0<>0<>bbe89fdd91d2ef5c9fac5ced2a079710<>res://.godot/imported/background_2.png-2428db69d724f3e01b81ea34c4b1ea71.ctex::
+example.png::CompressedTexture2D::6559718912817437872::1762171118::1762171118::1::::<><><>0<>0<>6feba75a0cdefb28385bf0a2b85a8db4<>res://.godot/imported/example.png-01eee346d64d0229f899c7e0a67708ea.ctex::
+tileset.png::CompressedTexture2D::3584274357696270905::1762171118::1762171118::1::::<><><>0<>0<>43976e41829851e1bb14aaa9d7065bae<>res://.godot/imported/tileset.png-b234aeccc43c2b8fc8aa321f668a5b00.ctex::
