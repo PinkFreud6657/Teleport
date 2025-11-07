@@ -37712,7 +37712,8 @@ size = Vector2(34.77527, 20.86516)
 [node name="main" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(18, 7)
+current = true
+position = Vector2(313, 251)
 zoom = Vector2(1.05, 1.05)
 
 [node name="Layer0" type="TileMapLayer" parent="."]
