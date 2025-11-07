@@ -17,6 +17,10 @@ var _teleport_cd_left: float = 0.0
 # 传送最大距离限制
 @export var teleport_max_distance: float = 100.0
 
+func _ready():
+	# 设置碰撞层和掩码，确保能检测到地形碰撞（layer 1）
+	collision_layer = 1  # Player 所在的层
+	collision_mask = 1    # 能检测到 layer 1 的碰撞体（地形）
 
 func _physics_process(delta):
 	# 冷却计时

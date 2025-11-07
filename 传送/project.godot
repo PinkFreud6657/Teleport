@@ -14,6 +14,15 @@ config/name="传送"
 run/main_scene="uid://b58avr7lm6brq"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
+[debug]
+
+settings/remote_port=6007
+settings/remote_host="127.0.0.1"
+settings/gdscript/warnings/unsafe_property_access=true
+settings/gdscript/warnings/unsafe_method_access=true
+settings/gdscript/warnings/unsafe_cast=true
+settings/gdscript/warnings/unsafe_call_argument=true
+
 [input]
 
 move_right={
