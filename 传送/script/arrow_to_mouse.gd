@@ -44,5 +44,3 @@ func _draw() -> void:
 	var p2 := tip_local - n * head_length - side * (head_width * 0.5)
 
 	draw_polygon(PackedVector2Array([p0, p1, p2]), PackedColorArray([line_color]))
-
-

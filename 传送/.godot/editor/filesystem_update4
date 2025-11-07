@@ -1,5 +1,6 @@
-res://script/tilemap_collision_builder.gd
+res://script/scene_transition.gd
+res://script/arrow_to_mouse.gd
+res://room2.tscn
 res://main.tscn
 res://script/player.gd
-res://script/coords_ui.gd
-res://script/arrow_to_mouse.gd
+res://player.tscn

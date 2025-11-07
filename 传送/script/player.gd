@@ -47,25 +47,55 @@ func _physics_process(delta):
 	else:
 		velocity.x = lerp(velocity.x, 0.0, friction * delta)
 
-	# 跳跃逻辑（支持 move_up 与 ui_accept）
-	if (Input.is_action_just_pressed("move_up") or Input.is_action_just_pressed("ui_accept")) and is_on_floor():
-		velocity.y = jump_force
+	# 跳跃逻辑（使用 W 键 move_up，但不在传送时触发）
+	# 注意：需要在 move_and_slide() 之前设置速度
+	if Input.is_action_just_pressed("move_up"):
+		# 如果同时按了空格，不跳跃（会触发传送）
+		if Input.is_action_pressed("ui_accept"):
+			pass  # 跳过跳跃，让传送处理
+		elif is_on_floor():
+			velocity.y = jump_force
 
 	# 移动与碰撞
 	move_and_slide()
+	
+	# 方向传送功能：同时按下方向键和空格键
+	_handle_directional_teleport()
 
-func _unhandled_input(event):
-	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		if _teleport_cd_left <= 0.0:
-			var target: Vector2 = get_global_mouse_position()
-			# 距离限制：不超过 teleport_max_distance
-			var from_pos: Vector2 = global_position
-			var delta: Vector2 = target - from_pos
-			var max_d: float = max(0.0, teleport_max_distance)
-			if delta.length() > max_d and max_d > 0.0:
-				target = from_pos + delta.normalized() * max_d
-			global_position = target
-			_teleport_cd_left = teleport_cooldown
+func _handle_directional_teleport():
+	# 检查是否按下空格键（ui_accept）
+	if not Input.is_action_just_pressed("ui_accept"):
+		return
+	
+	# 检查冷却时间
+	if _teleport_cd_left > 0.0:
+		return
+	
+	# 检测方向键输入
+	var teleport_dir := Vector2.ZERO
+	
+	if Input.is_action_pressed("move_right"):
+		teleport_dir.x = 1.0
+	elif Input.is_action_pressed("move_left"):
+		teleport_dir.x = -1.0
+	
+	if Input.is_action_pressed("move_down"):
+		teleport_dir.y = 1.0
+	elif Input.is_action_pressed("move_up"):
+		teleport_dir.y = -1.0
+	
+	# 只有当按下方向键时才传送
+	if teleport_dir.length() > 0.0:
+		# 归一化方向向量
+		teleport_dir = teleport_dir.normalized()
+		
+		# 计算传送目标位置
+		var from_pos: Vector2 = global_position
+		var target: Vector2 = from_pos + teleport_dir * teleport_max_distance
+		
+		# 执行传送
+		global_position = target
+		_teleport_cd_left = teleport_cooldown
 
 func get_teleport_cooldown_left() -> float:
 	return _teleport_cd_left

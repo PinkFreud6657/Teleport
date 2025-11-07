@@ -1,12 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1762171182
+::res://::1762515848
 character_body_2d.gd::GDScript::3342142396483995582::1762171118::0::1::::<>CharacterBody2D<><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1762181288::0::1::::<><><>0<>0<><>::
 main.tres::TileSet::549806384007024129::1762171118::0::1::::<><><>0<>0<><>::
-main.tscn::PackedScene::4560248903237787630::1762171118::0::1::::<><><>0<>0<><>::uid://cik0blaybq3ut::::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/Background.png<>uid://ck67poct7jpn7::::res://player.tscn<>uid://bfnwyg5cwj2do::::res://PixelFantasy_Caves_1.0/platform.tres
+main.tscn::PackedScene::4560248903237787630::1762514067::0::1::::<><><>0<>0<><>::uid://cik0blaybq3ut::::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/Background.png<>uid://ck67poct7jpn7::::res://player.tscn<>uid://bfnwyg5cwj2do::::res://PixelFantasy_Caves_1.0/platform.tres<>uid://30gflcaohrwm::::res://script/tilemap_collision_builder.gd<>uid://b7dpad1cha6ad::::res://script/coords_ui.gd<>uid://3xhlhs4w3lno::::res://script/scene_transition.gd
 new_script.gd::GDScript::640619278267222376::1762171118::0::1::::<>Node2D<><>0<>0<><>::
 node_2d.tscn::PackedScene::7416530482925206598::1762171118::0::1::::<><><>0<>0<><>::
 play.tscn::PackedScene::6825177105412550017::1762171118::0::1::::<><><>0<>0<><>::uid://bnu7ukdt3bhus::::res://character_body_2d.gd
-player.tscn::PackedScene::5540695984142397502::1762171118::0::1::::<><><>0<>0<><>::uid://cnhwkuc8wj8do::::res://script/player.gd<>uid://gxfmhaplfscf::::res://image/绘制像素卡比.png
+player.tscn::PackedScene::5540695984142397502::1762515840::0::1::::<><><>0<>0<><>::uid://cnhwkuc8wj8do::::res://script/player.gd
+room2.tscn::PackedScene::2699509870868365771::1762512632::0::1::::<><><>0<>0<><>::uid://cik0blaybq3ut::::res://Free Pixel Art Forest/Free Pixel Art Forest/Preview/Background.png<>uid://ck67poct7jpn7::::res://player.tscn<>uid://bfnwyg5cwj2do::::res://PixelFantasy_Caves_1.0/platform.tres<>uid://30gflcaohrwm::::res://script/tilemap_collision_builder.gd<>uid://b7dpad1cha6ad::::res://script/coords_ui.gd<>uid://3xhlhs4w3lno::::res://script/scene_transition.gd
 ::res://Free Pixel Art Forest/::1762171154
 ::res://Free Pixel Art Forest/Free Pixel Art Forest/::1762171154
 changelog.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
@@ -35,11 +37,18 @@ Pixel Art Forest.png::CompressedTexture2D::8896637809455796159::1762171118::1762
 Pixel Art Plataformer Painted Style.png::CompressedTexture2D::6380350497887403266::1762171118::1762171118::1::::<><><>0<>0<>e1032ccb7c09ada273384d0d3e192c1e<>res://.godot/imported/Pixel Art Plataformer Painted Style.png-46819ae088d902a6723d2a668f31e90b.ctex::
 Pixel Art Runner.png::CompressedTexture2D::7477777435761066624::1762171118::1762171118::1::::<><><>0<>0<>8de57094f6e143f76453a52adb2ff34b<>res://.godot/imported/Pixel Art Runner.png-88cc413fde80a2d87f154aab0d28bd85.ctex::
 Pixel Art Snowy Forest.png::CompressedTexture2D::2559405065031086833::1762171118::1762171118::1::::<><><>0<>0<>8ba2d0a63fcefd927771818f0f72bbf8<>res://.godot/imported/Pixel Art Snowy Forest.png-cac473f0d0c7672620a3e146f20d74b5.ctex::
-::res://image/::1762171140
+::res://image/::1762515907
 anime.jpg::CompressedTexture2D::8019063717446090096::1762171118::1762171118::1::::<><><>0<>0<>b4bb828697bc45cbe1ca41bc4be579e2<>res://.godot/imported/anime.jpg-123515fbcb2cc06fe9c65646c74a4c91.ctex::
 background_dust2.jpg::CompressedTexture2D::1267711288631748092::1762171118::1762171118::1::::<><><>0<>0<>1013c987ebc2ed785368ad144386b860<>res://.godot/imported/background_dust2.jpg-12a4a62336c83719e1caabb5a0e8304a.ctex::
 character.png::CompressedTexture2D::7006215480334096522::1762171118::1762171118::1::::<><><>0<>0<>ac059e9b63a0b0fb30dcec76b1b6bc25<>res://.godot/imported/character.png-e73bc05946a336deb4940c46aea02f9b.ctex::
 绘制像素卡比.png::CompressedTexture2D::468939133022159689::1762171118::1762171118::1::::<><><>0<>0<>2fad9714ae9c5760e22bada26b8fe1e5<>res://.godot/imported/绘制像素卡比.png-28a3c9ae3997e22e268ed0c1989a85e8.ctex::
+::res://image/Mossy Tileset/::1762515907
+Mossy - BackgroundDecoration.png::CompressedTexture2D::909514413181689677::1762515907::1762515912::1::::<><><>0<>0<>86f609db1fc932515768e9ab84ec7954<>res://.godot/imported/Mossy - BackgroundDecoration.png-169ed53cc6962ecda658e7ab74dde7bc.ctex::
+Mossy - Decorations&Hazards.png::CompressedTexture2D::6758371639931136725::1762515907::1762515913::1::::<><><>0<>0<>56672f3bfb528cc541d1e81ea9fabcf3<>res://.godot/imported/Mossy - Decorations&Hazards.png-b1d7f9f0c6b7040209487e08a30e8038.ctex::
+Mossy - FloatingPlatforms.png::CompressedTexture2D::7051086159476707350::1762515907::1762515909::1::::<><><>0<>0<>c5105aaf804a88a953a361cc6b3ef3c3<>res://.godot/imported/Mossy - FloatingPlatforms.png-668285e1578d64a0548952a058f8cd89.ctex::
+Mossy - Hanging Plants.png::CompressedTexture2D::9067477421683990023::1762515907::1762515910::1::::<><><>0<>0<>7f797048f5c54a25adb4101092bd7a6a<>res://.godot/imported/Mossy - Hanging Plants.png-ef6c9bf42abb14d875a56f7d4f93fa35.ctex::
+Mossy - MossyHills.png::CompressedTexture2D::5725272217391454792::1762515907::1762515909::1::::<><><>0<>0<>b658d410d6844d2fe1ea07122ea725b6<>res://.godot/imported/Mossy - MossyHills.png-46c7e570bf6285c6a13d7b44c5ea80cf.ctex::
+Mossy - TileSet.png::CompressedTexture2D::1854571652419591388::1762515907::1762515911::1::::<><><>0<>0<>15ba6b834d71134791506d4cf0fd62dd<>res://.godot/imported/Mossy - TileSet.png-3f53bd72c89eb9efc24585da8a9547dc.ctex::
 ::res://PixelFantasy_Caves_1.0/::1762171140
 background1.png::CompressedTexture2D::7278536924264123818::1762171118::1762171118::1::::<><><>0<>0<>7340975e2c0a006dcadfd1fd5944ae34<>res://.godot/imported/background1.png-a50c6d068763aacb42726409674ea38f.ctex::
 background2.png::CompressedTexture2D::1655887235397585104::1762171118::1762171118::1::::<><><>0<>0<>6f86bcda6b58664be9a2057ae04c0b15<>res://.godot/imported/background2.png-1000de2aeede285c998452863c0aad6d.ctex::
@@ -51,8 +60,13 @@ platform.tres::CompressedTexture2D::2765580807185508424::1762171118::0::1::::<><
 props1.png::CompressedTexture2D::1061933893729824669::1762171118::1762171118::1::::<><><>0<>0<>b92e62bc399a8d05f0d28197ba3d8e7e<>res://.godot/imported/props1.png-2d85e42e62f5f7943f560e1c9282ed79.ctex::
 props2.png::CompressedTexture2D::4962780903419447148::1762171118::1762171118::1::::<><><>0<>0<>c3c250605d578be6e527d583d10b3aa9<>res://.godot/imported/props2.png-53c2eaecf297dc1954319fd988fbaed9.ctex::
 ::res://PixelFantasy_Caves_1.0/PSD/::1762171140
-::res://script/::1762171140
-player.gd::GDScript::5701101665824724800::1762171118::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://script/::1762513699
+arrow_to_mouse.gd::GDScript::7261942132284375598::1762512271::0::1::::<>Node2D<><>0<>0<><>::
+coords_ui.gd::GDScript::4639567766099039919::1762174507::0::1::::<>CanvasLayer<><>0<>0<><>::
+player.gd::GDScript::5701101665824724800::1762513706::0::1::::<>CharacterBody2D<><>0<>0<><>::
+scene_manager.gd::GDScript::5493794882726344871::1762512057::0::1::::<>Node<><>0<>0<><>::
+scene_transition.gd::GDScript::2013213369708671572::1762513014::0::1::::<>Node2D<><>0<>0<><>::
+tilemap_collision_builder.gd::GDScript::2017270877507989076::1762172207::0::1::::<>TileMapLayer<><>0<>0<><>::
 ::res://stringstar fields/::1762171140
 !readme!.txt::TextFile::-1::1762171118::0::1::::<><><>0<>0<><>::
 background_0.png::CompressedTexture2D::6888686314778311539::1762171118::1762171118::1::::<><><>0<>0<>232845c75443e0eb2d23be20b9b65f80<>res://.godot/imported/background_0.png-e4626cbda9fab221d6d7568adabc343d.ctex::
