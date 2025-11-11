@@ -68,9 +68,6 @@ sources/1 = SubResource("TileSetAtlasSource_7mycd")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
 size = Vector2(2000, 40)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
-size = Vector2(52.162918, 55.640427)
-
 [node name="room2" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -110,10 +107,6 @@ shape = SubResource("RectangleShape2D_ground")
 top_level = true
 position = Vector2(50, 248)
 scale = Vector2(0.57512116, 0.57512116)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(-1.7387695, -45.20787)
-shape = SubResource("RectangleShape2D_h2yge")
 
 [node name="SceneTransition" type="Node2D" parent="."]
 position = Vector2(17, 3)

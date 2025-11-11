@@ -15,7 +15,7 @@ extends CharacterBody2D
 var _teleport_cd_left: float = 0.0
 
 # 传送最大距离限制
-@export var teleport_max_distance: float = 100.0
+@export var teleport_max_distance: float = 300.0
 
 func _ready():
 	# 设置碰撞层和掩码，确保能检测到地形碰撞（layer 1）

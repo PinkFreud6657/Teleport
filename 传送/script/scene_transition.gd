@@ -27,6 +27,11 @@ func _ready():
 	# 确保相机激活
 	if camera:
 		camera.make_current()
+		# 如果相机和玩家都存在，将相机移动到玩家位置（确保能看到游戏内容）
+		if player:
+			# 等待一帧，确保玩家位置已正确设置
+			await get_tree().process_frame
+			camera.global_position = player.global_position
 
 func _process(_delta: float):
 	if is_transitioning or not player or not camera:
