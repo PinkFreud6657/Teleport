@@ -11,16 +11,27 @@ const JUMP_VELOCITY = -450.0
 const GRAVITY = 980.0
 # 传送距离
 const TELEPORT_DISTANCE = 100.0
+const MAX_HEALTH = 100
+const STUCK_DEATH_DELAY = 2.0
 
 # 传送冷却（防止连续传送）
 var teleport_cooldown: float = 0.0
-const TELEPORT_COOLDOWN_TIME = 2.0
+const TELEPORT_COOLDOWN_TIME = 1.0
 # 传送动画时长
 const TELEPORT_ANIMATION_TIME = 0.15
 # 是否正在传送动画中
 var is_teleporting: bool = false
+# 角色血量
+var health: int = MAX_HEALTH
+var respawn_position: Vector2 = Vector2.ZERO
+var stuck_timer: float = STUCK_DEATH_DELAY
+var is_stuck_in_terrain: bool = false
 # Sprite2D节点引用
 @onready var sprite: Sprite2D = $Sprite2D
+
+func _ready() -> void:
+	respawn_position = global_position
+	reset_stuck_state()
 
 func _physics_process(delta: float) -> void:
 	# 更新传送冷却
@@ -35,6 +46,7 @@ func _physics_process(delta: float) -> void:
 	if handle_teleport():
 		# 如果传送成功，跳过其他输入处理
 		move_and_slide()
+		monitor_stuck_state(delta)
 		return
 	
 	# 处理跳跃输入
@@ -45,6 +57,7 @@ func _physics_process(delta: float) -> void:
 	
 	# 移动角色
 	move_and_slide()
+	monitor_stuck_state(delta)
 
 func handle_jump_input() -> void:
 	# 检测是否按下跳跃键（W键）
@@ -130,3 +143,43 @@ func handle_horizontal_movement() -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+func monitor_stuck_state(delta: float) -> void:
+	if is_teleporting:
+		return
+	
+	if is_inside_solid():
+		if not is_stuck_in_terrain:
+			is_stuck_in_terrain = true
+			stuck_timer = STUCK_DEATH_DELAY
+		else:
+			stuck_timer -= delta
+			if stuck_timer <= 0.0:
+				apply_lethal_damage()
+	else:
+		reset_stuck_state()
+
+func is_inside_solid() -> bool:
+	return test_move(global_transform, Vector2.ZERO)
+
+func reset_stuck_state() -> void:
+	is_stuck_in_terrain = false
+	stuck_timer = STUCK_DEATH_DELAY
+
+func apply_lethal_damage() -> void:
+	take_damage(health)
+
+func take_damage(amount: int) -> void:
+	health = max(0, health - amount)
+	if health == 0:
+		die_and_respawn()
+
+func die_and_respawn() -> void:
+	global_position = respawn_position
+	velocity = Vector2.ZERO
+	teleport_cooldown = 0.0
+	is_teleporting = false
+	sprite.modulate.a = 1.0
+	sprite.scale = Vector2.ONE
+	reset_stuck_state()
+	health = MAX_HEALTH
