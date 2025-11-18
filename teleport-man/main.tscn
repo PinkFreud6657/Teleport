@@ -3,17 +3,18 @@
 [ext_resource type="PackedScene" uid="uid://b8k7x2m3n4p5q" path="res://Rooms/Room1.tscn" id="1_room1"]
 [ext_resource type="PackedScene" uid="uid://b72ga74axvsjn" path="res://Player/player.tscn" id="2_player"]
 [ext_resource type="Script" uid="uid://bhqikw5cy84el" path="res://Player/camera_controller.gd" id="3_camera"]
-[ext_resource type="Script" path="res://UI/cooldown_display.gd" id="4_cooldown"]
+[ext_resource type="Script" uid="uid://5begtcb5hkm4" path="res://UI/cooldown_display.gd" id="4_cooldown"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Room1" parent="." instance=ExtResource("1_room1")]
 
 [node name="Player" parent="." instance=ExtResource("2_player")]
-position = Vector2(64, 208)
+position = Vector2(36, 607)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(-3, 2)
+position = Vector2(-1, 1)
+zoom = Vector2(1.6, 1.6)
 script = ExtResource("3_camera")
 
 [node name="UI" type="CanvasLayer" parent="."]
@@ -24,6 +25,6 @@ offset_top = 20.0
 offset_right = 100.0
 offset_bottom = 60.0
 theme_override_font_sizes/font_size = 24
-text = "传送就绪"
+text = "Ready"
 horizontal_alignment = 1
 script = ExtResource("4_cooldown")

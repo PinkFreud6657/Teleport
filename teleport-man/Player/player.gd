@@ -13,6 +13,7 @@ const GRAVITY = 980.0
 const TELEPORT_DISTANCE = 100.0
 const MAX_HEALTH = 100
 const STUCK_DEATH_DELAY = 2.0
+const FALL_DEATH_VELOCITY = 2000
 
 # 传送冷却（防止连续传送）
 var teleport_cooldown: float = 0.0
@@ -28,6 +29,7 @@ var stuck_timer: float = STUCK_DEATH_DELAY
 var is_stuck_in_terrain: bool = false
 # Sprite2D节点引用
 @onready var sprite: Sprite2D = $Sprite2D
+@onready var tilemap_randomizer: Node = get_node_or_null("../Room1/TileMapLayer")
 
 func _ready() -> void:
 	respawn_position = global_position
@@ -41,6 +43,8 @@ func _physics_process(delta: float) -> void:
 	# 应用重力
 	if not is_on_floor():
 		velocity.y += GRAVITY * delta
+		if check_fall_death():
+			return
 	
 	# 处理传送（优先级最高）
 	if handle_teleport():
@@ -162,6 +166,12 @@ func monitor_stuck_state(delta: float) -> void:
 func is_inside_solid() -> bool:
 	return test_move(global_transform, Vector2.ZERO)
 
+func check_fall_death() -> bool:
+	if velocity.y >= FALL_DEATH_VELOCITY:
+		apply_lethal_damage()
+		return true
+	return false
+
 func reset_stuck_state() -> void:
 	is_stuck_in_terrain = false
 	stuck_timer = STUCK_DEATH_DELAY
@@ -183,3 +193,6 @@ func die_and_respawn() -> void:
 	sprite.scale = Vector2.ONE
 	reset_stuck_state()
 	health = MAX_HEALTH
+	if tilemap_randomizer:
+		if tilemap_randomizer.has_method("randomize_tiles_with_pattern"):
+			tilemap_randomizer.randomize_tiles_with_pattern()
